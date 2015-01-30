@@ -54,7 +54,7 @@ In `hobbitlaunch.cfg` (Hobbit)
     ENVFILE $HOBBITCLIENTHOME/etc/hobbitclient.cfg
     CMD $HOBBITCLIENTHOME/ext/xymon_php_fpm.pl
     LOGFILE $HOBBITCLIENTHOME/logs/hobbit-phpfpm.log
-    INTERVAL 3m
+    INTERVAL 2m
 ```
 or in `clientlaunch.cfg` (Xymon)
 ```
@@ -62,7 +62,7 @@ or in `clientlaunch.cfg` (Xymon)
     ENVFILE $XYMONCLIENTHOME/etc/xymonclient.cfg
     CMD $XYMONCLIENTHOME/ext/xymon_php_fpm.pl
     LOGFILE $XYMONCLIENTLOGS/xymon-phpfpm.log
-    INTERVAL 3m
+    INTERVAL 2m
 ```
 
 + Append or include the provided file to `graphs.cfg`.
